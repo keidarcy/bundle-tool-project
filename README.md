@@ -1,2 +1,1 @@
-# webpack-project-examples
-webpack-project-examples
+# webpack project list
