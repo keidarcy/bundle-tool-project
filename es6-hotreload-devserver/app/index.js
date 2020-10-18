@@ -3,4 +3,8 @@ import { tripleMe } from './function';
 
 console.log(isEmail('john@gmail.com'));
 
-console.log(tripleMe(2));
+console.log(tripleMe(91));
+
+if (module.hot) {
+  module.hot.accept();
+}
