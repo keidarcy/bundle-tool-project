@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "dev": "webpack serve --watch --mode development --env development"
   },
   "dependencies": {
     "react": "^16.14.0",
